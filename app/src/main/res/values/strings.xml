@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">دکتر سلام</string>
+    <string name="name">معصومه بهرامی</string>
+    <string name="connection">آنلاین</string>
+    <string name="jobField">مشاوره فردی، تحصیلی، اضطراب، شغلی، استعداد یابی ...</string>
+    <string name="button_sendMasseg">ارسال پیام</string>
+    <string name="textView_type">انتخاب مدل مشاوره</string>
+</resources>
