@@ -23,3 +23,16 @@ If the doctor was online you have to add your information in a valid form, other
 also if you had added your info before, there wont be any edit text in the page:
 
 ![35f0417b-73da-481f-828a-9bbbd9bbd261](https://user-images.githubusercontent.com/98989834/155873564-b0dc55f3-9f01-40ee-b124-3a35decae0d8.jpg)
+
+In the third page, there is 3 options to choose from and you should choose one of them at least:
+
+![23ac72dd-91b0-4048-8d43-085f98243d7e](https://user-images.githubusercontent.com/98989834/155859063-318b52a8-f833-4963-a170-ce44cbd79e97.jpg)
+
+if you do not chose, after pressing اتمام you will return to the previous page and receive this message:
+ 
+![1c5e5abe-f4ec-4ce1-8b7a-14fbc69fcb4a](https://user-images.githubusercontent.com/98989834/155859104-b2c785ee-28c2-4257-9eca-6a5cb425246d.jpg)
+
+and if you choose one or more, you receive this message:
+ 
+![73a2d106-8be8-4cbd-8f0e-753ebe476ee6](https://user-images.githubusercontent.com/98989834/155859131-2ce591a0-56e3-426f-ac46-251f3c665490.jpg)
+ 
