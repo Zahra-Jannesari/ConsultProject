@@ -29,11 +29,11 @@ class DoctorActivity : AppCompatActivity() {
         binding.textViewConnection.text = firstDoctor.connection.toString()
 
         var cons1 = Hospital.consultancyList[0]
-        binding.textViewConsultancy.text = " مشاوره تلفنی " + cons1.time + " دقیقه ای "
-        binding.textViewConsultancy.text = " مشاوره تلفنی " + cons1.time + " دقیقه ای "
-        binding.textViewConsultancyPrice.text = cons1.price.toString() +  " تومان "
+        binding.textViewConsultancy10.text = " مشاوره تلفنی " + cons1.time + " دقیقه ای "
+        binding.textViewConsultancy10.text = " مشاوره تلفنی " + cons1.time + " دقیقه ای "
+        binding.textViewConsultancyPrice10.text = cons1.price.toString() +  " تومان "
 
-        binding.llConsultancy.setOnClickListener {
+        binding.llConsultancy10.setOnClickListener {
             Toast.makeText(this , "cunsultancy is chosen" , Toast.LENGTH_SHORT).show()
             val intent = Intent(this , ConsultActivity::class.java)
             intent.putExtra("id" , firstDoctor.id)

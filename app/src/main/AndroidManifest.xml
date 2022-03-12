@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleProject">
         <activity
+            android:name=".ChoseDoctorActivity"
+            android:exported="false" />
+        <activity
             android:name=".CheckPatientActivity"
             android:exported="false" />
         <activity
