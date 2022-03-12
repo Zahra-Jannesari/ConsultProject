@@ -43,7 +43,7 @@ class ConsultActivity : AppCompatActivity() {
             }else{
                 binding.textViewDoctorCalls.text =
                     "دکتر ${myDoctor?.name}افلاین است و میتوانید از طریق صفحه خود دکتر به ایشان پیامک دهید."
-                binding.buttonDrCall.isEnabled = true
+                binding.buttonDrCall.isEnabled = false
             }
         }
         binding.buttonDrCall.setOnClickListener {
@@ -75,7 +75,7 @@ class ConsultActivity : AppCompatActivity() {
             binding.editTextTel.error="تلفن نامعتبر"
             false
         }else{
-
+            binding.editTextName.error="نام را وارد کنید"
             false
         }
     }

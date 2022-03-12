@@ -105,23 +105,67 @@
             android:layout_marginBottom="12dp"
             />
         <LinearLayout
-            android:id="@+id/llConsultancy"
+            android:id="@+id/llConsultancy10"
             android:layout_width="match_parent"
             android:orientation="vertical"
             android:padding="8dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
             <TextView
-                android:id="@+id/textViewConsultancy"
+                android:id="@+id/textViewConsultancy10"
                 android:layout_gravity="right"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="مشاوره تلفنی ده دقیقه ای"
                 android:textSize="8pt"/>
             <TextView
-                android:id="@+id/textViewConsultancyPrice"
+                android:id="@+id/textViewConsultancyPrice10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="24,000 تومان"
+                android:textSize="6pt"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llConsultancy30"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/textViewConsultancy30"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مشاوره تلفنی سی دقیقه ای"
+                android:textSize="8pt"/>
+            <TextView
+                android:id="@+id/textViewConsultancyPrice30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="72,000 تومان"
+                android:textSize="6pt"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llConsultancy60"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:id="@+id/textViewConsultancy60"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مشاوره تلفنی شصت دقیقه ای"
+                android:textSize="8pt"/>
+            <TextView
+                android:id="@+id/textViewConsultancyPrice60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100,000 تومان"
                 android:textSize="6pt"/>
         </LinearLayout>
     </LinearLayout>
