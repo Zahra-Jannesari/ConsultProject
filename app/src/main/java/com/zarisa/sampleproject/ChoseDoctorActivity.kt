@@ -1,6 +1,7 @@
 package com.zarisa.sampleproject
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -19,10 +20,10 @@ class ChoseDoctorActivity : AppCompatActivity() {
 
     private fun initViews() {
         setInformation()
-        binding.buttonSee1.setOnClickListener {  }
-        binding.buttonSee2.setOnClickListener {  }
-        binding.buttonSee3.setOnClickListener {  }
-        binding.buttonSee4.setOnClickListener {  }
+        binding.buttonSee1.setOnClickListener { goTODoctorPage(1) }
+        binding.buttonSee2.setOnClickListener { goTODoctorPage(2) }
+        binding.buttonSee3.setOnClickListener { goTODoctorPage(3) }
+        binding.buttonSee4.setOnClickListener { goTODoctorPage(4) }
     }
     private fun setInformation(){
         binding.textViewName1.text=viewModel1.getDoctorName(0)
@@ -34,5 +35,10 @@ class ChoseDoctorActivity : AppCompatActivity() {
         binding.textViewField2.text=viewModel1.getDoctorExpertise(1)
         binding.textViewField3.text=viewModel1.getDoctorExpertise(2)
         binding.textViewField4.text=viewModel1.getDoctorExpertise(3)
+    }
+    fun goTODoctorPage(numberOfButton:Int){
+        val intent=Intent(this,DoctorActivity::class.java)
+        intent.putExtra("chosenButton",numberOfButton)
+        startActivity(intent)
     }
 }
