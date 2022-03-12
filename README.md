@@ -7,6 +7,8 @@ https://user-images.githubusercontent.com/98989834/158034540-2dbf71a0-3888-4715-
 
 
 --------------------------------------------------------------------------
+
+note: (these photoes blonge to the old vertion):
 at the first page doctor information will set up from the data bank.
 
 ![67797d45-5172-4730-9b4f-f1f5871fc0fd](https://user-images.githubusercontent.com/98989834/155858501-2c2daaa0-3cee-4bdb-82a9-756d051af648.jpg)
