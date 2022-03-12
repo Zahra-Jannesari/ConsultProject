@@ -22,7 +22,6 @@ class DoctorActivity : AppCompatActivity() {
     }
 
     private fun primaryInit() {
-        Hospital.setTestData()
         val firstDoctor = Hospital.doctorList[1]
         binding.textViewName.text = firstDoctor.name
         binding.textViewField.text = firstDoctor.field

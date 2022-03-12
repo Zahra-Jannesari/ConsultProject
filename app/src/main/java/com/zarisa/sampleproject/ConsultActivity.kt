@@ -32,20 +32,20 @@ class ConsultActivity : AppCompatActivity() {
 
     private fun initViews() {
         var id = intent.getIntExtra("id" , -1)
-        if (id == -1){
-            binding.textViewDoctorCalls.text = "ٔدکتر شما پیدا نشد"
-        }else {
-            var myDoctor = Hospital.getDoctor(id)
-            if(myDoctor?.connection == Connection.Online) {
-                binding.textViewDoctorCalls.text =
-                    "دکتر ${myDoctor?.name}انلاین است و میتواند به شما تلفن کند."
-                binding.buttonDrCall.isEnabled = true
-            }else{
-                binding.textViewDoctorCalls.text =
-                    "دکتر ${myDoctor?.name}افلاین است و میتوانید از طریق صفحه خود دکتر به ایشان پیامک دهید."
-                binding.buttonDrCall.isEnabled = false
-            }
-        }
+//        if (id == -1){
+//            binding.textViewDoctorCalls.text = "ٔدکتر شما پیدا نشد"
+//        }else {
+//            var myDoctor = Hospital.getDoctor(id)
+//            if(myDoctor?.connection == Connection.Online) {
+//                binding.textViewDoctorCalls.text =
+//                    "دکتر ${myDoctor?.name}انلاین است و میتواند به شما تلفن کند."
+//                binding.buttonDrCall.isEnabled = true
+//            }else{
+//                binding.textViewDoctorCalls.text =
+//                    "دکتر ${myDoctor?.name}افلاین است و میتوانید از طریق صفحه خود دکتر به ایشان پیامک دهید."
+//                binding.buttonDrCall.isEnabled = false
+//            }
+//        }
         binding.buttonDrCall.setOnClickListener {
             if(getFromShared_name()!=""&&getFromShared_tel()!="")
                 openCheckActivity()
